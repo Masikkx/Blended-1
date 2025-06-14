@@ -1,0 +1,237 @@
+:root {
+	--font-family: "Poppins", sans-serif;
+	--second-family: "Inter", sans-serif;
+	--third-family: "Montserrat", sans-serif;
+	--font3: "FontAwesome", sans-serif;
+	--font4: "Roboto", sans-serif;
+	--font5: "ProximaNova", sans-serif;
+	--font6: "Asap Condensed", sans-serif; }
+
+body{
+	background-color: #FFFFFF;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+button{
+	cursor: pointer;
+}
+/* ---HEADER SECTION START--- */
+.logo,
+.nav-list-item-link,
+.current-link,
+.reg-btn-primary,
+.reg-btn-secondary
+{
+	font-family: var(--font-family);
+}
+.logo {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 93%;
+	color: #173a56;
+}
+.nav-list-item-link,
+.current-link{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	color: #22343d;
+}
+.current-link {
+	font-weight: 600;
+}
+.reg-btn-primary,
+.reg-btn-secondary{
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.reg-btn-primary {
+	color: #173a56;
+	background-color: #FFFFFF;
+	border-color: #BCD0E5;
+	width: 105px;
+	height: 42px;
+}
+.reg-btn-secondary{
+	color: #FFFFFF;
+	background: #02897a;
+	border-color: #02897a;
+	width: 113px;
+	height: 42px;
+}
+
+/* ---HEADER SECTION END--- */
+
+/* ---PRICE SECTION START--- */
+
+.pricing-list-item {
+	font-family: var(--third-family);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+	background: #fff;
+	border-radius: 8px;
+	width: 322px;
+	height: 456px;
+	color: #22343d;
+}
+
+.pricing-list-item-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 167%;
+	text-align: center;
+}
+	
+.pricing-list-item-subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 250%;
+	text-align: center;
+}
+
+.pricing-list-item-price {
+	font-weight: 700;
+	font-size: 76px;
+	line-height: 132%;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #02897a;
+	margin: 0;
+}
+.pricing-list-item-price-dollar{
+	font-size: 24px;
+	line-height: 125%;
+	color: #02897a;
+}
+
+.pricing-list-item-price-month{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 119%;
+	letter-spacing: 0.01em;
+	color: #afafaf;
+}
+
+.pricing-sublist-item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 137%;
+	letter-spacing: 0.01em;
+}
+
+.pricing-button {
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 8px;
+	width: 139px;
+	height: 44px;
+	background: #02897a;	
+	border: 0px;
+}
+
+.pricing-list-item:nth-child(2) {
+	background: #02897a;
+	color: #FFFFFF;
+}
+.pricing-list-item:nth-child(2)>
+.pricing-list-item-price,
+.pricing-list-item-price-dollar{
+	color: #fff;
+}
+.pricing-list-item:nth-child(2)
+.pricing-list-item-price-month{
+	color: #e0e0e0;
+}
+.pricing-list-item:nth-child(2)
+.pricing-button{
+	background: #fff;
+	color: #02897a;
+}
+
+/* ---PRICE SECTION END--- */
+
+/* ---Promo-card SECTION START--- */
+
+.promo-card {
+	font-family: var(--font-family);
+	border-radius: 32px;
+	font-weight: 600;
+	width: 968px;
+	background: #02897a;
+}
+
+.promo-card-title {
+	font-size: 32px;
+	line-height: 151%;
+	color: #fff;
+}
+
+.promo-card-button {
+	background: #fff;
+	border-radius: 8px;
+	width: 150px;
+	height: 50px;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 20px;
+	color: #22343d;
+	border: 0px;
+}
+/* ---Promo-card SECTION END--- */
+
+/* ---Page-Footer SECTION START--- */
+.page-footer,
+.footer-sublist-item-link{
+	color: #22343d;
+	font-family: var(--font-family);
+}
+.socials-list-item {
+	width: 40px;
+	height: 40px;
+	background-color: #edfffc;
+	border-radius: 100%;
+}
+.footer-sublist-title,
+.sign-up-title{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+}
+.footer-sublist-item-link,
+.author-comment {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 219%;
+}
+.sign-up-input {
+	border: 1px solid #bcd0e5;
+	border-radius: 4px;
+	width: 325px;
+	height: 48px;
+}
+.sign-up-button {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	width: 131px;
+	height: 39px;
+	background: #02897a;
+	border: 0px;
+}
+
+.author-comment {
+	line-height: 187%;
+	text-align: center;
+}
+
+/* ---Page-Footer SECTION END--- */

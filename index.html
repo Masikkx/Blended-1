@@ -3,6 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- Poppins font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- Inter font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<!-- Montsert font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<!-- ProximaNova font -->
+	<link href="https://use.typekit.net/ВАШ-КОД.css" rel="stylesheet" crossorigin="anonymous">
+	<!-- Roboto font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	 
+	<!-- ---Normalizer--- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- ---layout.css--- -->
+	 <link rel="stylesheet" href="./css/layout.css">
+
 	<title>Business promotion</title>
 </head>
 <body>
@@ -10,10 +36,10 @@
 <!-- ---PAGE-HEADER--- -->
 	
 <header class="page-header">
-		<a href="./index.html">
-			<img src="./images/logo.svg" alt="logo" width="40" height="36" class="logo">
-			Product
-		</a>
+	<a href="./index.html" class="logo">
+		<img src="./images/logo.svg" alt="logo" width="40" height="36" class="logo-img">
+		Product
+	</a>
 		<nav class="page-nav">
 			<ul class="page-nav-list">
 				<li class="nav-list-item"><a href="./index.html" class="nav-list-item-link current-link">Product</a></li>
@@ -23,8 +49,8 @@
 			</ul>
 		</nav>
 		<ul class="reg-btn-list">
-			<li class="reg-btn-list-item"><button type="button" class="reg-btn">Sign In</button></li>
-			<li class="reg-btn-list-item"><button type="button" class="reg-btn">Sign Up</button></li>
+			<li class="reg-btn-list-item"><button type="button" class="reg-btn-primary">Sign In</button></li>
+			<li class="reg-btn-list-item"><button type="button" class="reg-btn-secondary">Sign Up</button></li>
 		</ul>
 </header>
 
@@ -224,7 +250,7 @@
 		<li class="pricing-list-item">
 			<h3 class="pricing-list-item-title">Free</h3>
 			<p class="pricing-list-item-subtitle">Brief price description</p>
-			<h4 class="pricing-list-item-price">0$ Per / month</h4>
+			<h4 class="pricing-list-item-price">0 <span class="pricing-list-item-price-dollar">$</span> <span class="pricing-list-item-price-month">Per / month</span></h4>
 			<ul class="pricing-sublist">
 				<li class="pricing-sublist-item">Only 2 Operators</li>
 				<li class="pricing-sublist-item">Notifications</li>
@@ -235,7 +261,7 @@
 		<li class="pricing-list-item">
 			<h3 class="pricing-list-item-title">Standard</h3>
 			<p class="pricing-list-item-subtitle">Brief price description</p>
-			<h4 class="pricing-list-item-price">5$ Per / month</h4>
+			<h4 class="pricing-list-item-price">5 <span class="pricing-list-item-price-dollar">$</span> <span class="pricing-list-item-price-month">Per / month</span></h4>
 			<ul class="pricing-sublist">
 				<li class="pricing-sublist-item">5+ Operators</li>
 				<li class="pricing-sublist-item">Notifications</li>
@@ -246,7 +272,7 @@
 		<li class="pricing-list-item">
 			<h3 class="pricing-list-item-title">Premium</h3>
 			<p class="pricing-list-item-subtitle">Brief price description</p>
-			<h4 class="pricing-list-item-price">10$ Per / month</h4>
+			<h4 class="pricing-list-item-price">10 <span class="pricing-list-item-price-dollar">$</span> <span class="pricing-list-item-price-month">Per / month</span></h4>
 			<ul class="pricing-sublist">
 				<li class="pricing-sublist-item">10+ Operators</li>
 				<li class="pricing-sublist-item">Notifications</li>
@@ -317,14 +343,12 @@
 
 <!-- ---Get This SECTION--- -->
 
-<section class="promo-card">
+<section class="promo">
+<div class="promo-card">
 	<h2 class="promo-card-title">Join 100 Compannies who boost their business with Product</h2>
 	<button type="button" class="promo-card-button">Get This</button>
-	<img 
-	src="./images/promo-card-image.png" 
-	alt="promo card image"
- height="331" 
-	class="promo-card-image">
+	<img src="./images/promo-card-image.png" alt="promo card image" height="331" class="promo-card-image">
+</div>
 </section>
 </main>
 
@@ -356,18 +380,18 @@
 		</li>
 	</ul>
 
-	<h3 class="resource-title">Resource</h3>
-	<ul class="resource-list">
-		<li class="resource-list-item"><a href="" class="resource-list-item-link">About Us</a></li>
-		<li class="resource-list-item"><a href="" class="resource-list-item-link">Blog</a></li>
-		<li class="resource-list-item"><a href="" class="resource-list-item-link">Contact</a></li>
-		<li class="resource-list-item"><a href="" class="resource-list-item-link">FAQ</a></li>
+	<h3 class="footer-sublist-title">Resource</h3>
+	<ul class="footer-sublist">
+		<li class="footer-sublist-item"><a href="" class="footer-sublist-item-link">About Us</a></li>
+		<li class="footer-sublist-item"><a href="" class="footer-sublist-item-link">Blog</a></li>
+		<li class="footer-sublist-item"><a href="" class="footer-sublist-item-link">Contact</a></li>
+		<li class="footer-sublist-item"><a href="" class="footer-sublist-item-link">FAQ</a></li>
 	</ul>
-	<h3 class="legal-stuff-title">Legal Stuff</h3>
-	<ul class="legal-stuff-list">
-		<li class="legal-stuff-list-item"><a href="" class="legal-stuff-list-item-link">Disclaimer</a></li>
-		<li class="legal-stuff-list-item"><a href="" class="legal-stuff-list-item-link">Financing</a></li>
-		<li class="legal-stuff-list-item"><a href="" class="legal-stuff-list-item-link">Privacy Policy</a></li>
+	<h3 class="footer-sublist-title">Legal Stuff</h3>
+	<ul class="footer-sublist">
+		<li class="footer-sublist-item"><a href="" class="footer-sublist-item-link">Disclaimer</a></li>
+		<li class="footer-sublist-item"><a href="" class="footer-sublist-item-link">Financing</a></li>
+		<li class="footer-sublist-item"><a href="" class="footer-sublist-item-link">Privacy Policy</a></li>
 	</ul>
 	<h3 class="sign-up-title">knowing you're always on the best energy deal.</h3>
 	<input type="email" class="sign-up-input">
