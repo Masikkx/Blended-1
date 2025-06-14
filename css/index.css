@@ -1,0 +1,313 @@
+body{
+	font-family: var(--font-family);
+}
+
+/* ---HERO SECTION START--- */
+
+.hero {
+	color: #22343d;
+}
+
+.hero-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 150%;
+}
+
+.hero-subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 156%;
+}
+
+.hero-button-list {}
+
+.hero-button-list-item {}
+
+.hero-button-primary,
+.hero-button-secondary{
+	font-size: 16px;
+	border: 0px;
+}
+.hero-button-primary {
+
+	font-weight: 700;
+	color: #fff;
+	border-radius: 4px;
+	width: 178px;
+	height: 53px;
+	background: #02897a;
+}
+.hero-button-secondary {
+	text-decoration: underline;
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #02897a;
+}
+
+/* ---HERO SECTION END--- */
+
+/* ---ADVANTAGES SECTION START--- */
+
+.advantages {
+	color: #22343d;
+}
+
+.advantages-title {
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+}
+
+.advantages-list {}
+
+.advantages-list-item {}
+
+.advantages-list-item-title {
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.advantages-list-item-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 162%;
+}
+
+.sign-up-btn {
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 4px;
+	border: 0px;
+	width: 175px;
+	height: 53px;
+	background: #02897a;
+}
+
+/* ---ADVANTAGES SECTION END--- */
+
+/* ---SUCCESS SECTION START--- */
+
+.success {
+	color: #22343d;
+	font-size: 16px;
+}
+
+.success-title {}
+
+.success-list {}
+
+.success-list-item {}
+
+.success-list-item-text {
+	font-weight: 600;
+}
+
+.success-list-item-titile {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.success-list-item-subtitle {
+	font-weight: 400;
+	line-height: 162%;
+}
+
+.success-list-sublist {}
+
+.success-sublist-item {}
+
+.success-sublist-title {
+	font-weight: 600;
+	line-height: 162%;
+}
+
+.success-sublist-text {
+	font-weight: 400;
+	line-height: 162%;
+}
+
+.success-sublist-item-image {}
+
+.sublist-sublist-item {}
+
+/* ---SUCCESS SECTION END--- */
+
+/* ---OUR-EXPERTS SECTION START--- */
+
+.our-experts {
+	text-align: center;
+	color: #22343d;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.our-experts-title {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.our-experts-subtitle {
+	line-height: 162%;
+}
+
+.our-experts-list {}
+
+.our-experts-list-item {}
+
+.our-experts-list-item-image {}
+
+.our-experts-list-item-text {
+	color: #2f281e;
+}
+
+.our-experts-button {
+	border: 0px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 4px;
+	width: 216px;
+	height: 53px;
+	background: #02897a;
+}
+
+/* ---OUR-EXPERTS SECTION END--- */
+
+/* ---STRATEGIES SECTION START--- */
+
+.strategies {
+	color: #22343d;
+}
+
+.strategies-title {
+	font-weight: 700;
+	font-size: 34px;
+}
+
+.strategies-subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 162%;
+}
+
+
+
+.strategies-list-item {
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	width: 350px;
+	height: 359px;
+	background: #fff;
+}
+
+.strategies-list-item-image {}
+
+.strategies-list-item-date {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+}
+
+.strategies-list-item-date span{
+	font-weight: 700;
+}
+
+.strategies-list-item-title {
+	font-weight: 700;
+		font-size: 24px;
+		line-height: 167%;
+}
+.strategies-list-item:nth-child(2)
+.strategies-list-item-title {
+	color: #02897a;
+}
+
+/* ---STRATEGIES SECTION END--- */
+
+/* ---PRICING SECTION START--- */
+
+.pricing{
+	color: #22343d;
+	text-align: center;
+}
+.pricing-title{
+	font-weight: 700;
+	font-size: 34px;
+}
+
+.pricing-subtitle{
+	font-weight: 500;
+	font-size: 16px;
+}
+
+/* ---PRICING SECTION END--- */
+
+/* ---REVIEWS SECTION START--- */
+.reviews {}
+
+.reviews-title {
+	color: #22343d;
+	font-weight: 700;
+		font-size: 32px;
+		line-height: 178%;
+		letter-spacing: 0.01em;
+		text-align: center;
+}
+
+.reviews-subtitle {
+	color: #22343d;
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 175%;
+		letter-spacing: 0.01em;
+		text-align: center;
+}
+
+.reviews-list {}
+
+.reviews-list-item {
+	background: #fff;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	padding: 30px 35px;
+	width: 327px;
+	height: 240px;
+}
+
+.reviews-rating {}
+
+.reviews-list-item-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.01em;
+	color: #737373;
+}
+
+.reviewer-icon {
+	border-radius: 100%;
+	stroke-width: 1px;
+	stroke: #bdbdbd;
+}
+
+.reviewer-name {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.01em;
+	color: #02897a;
+}
+
+.reviewer-job {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 171%;
+	letter-spacing: 0.01em;
+	color: #252b42;
+}
+
+/* ---REVIEWS SECTION END--- */

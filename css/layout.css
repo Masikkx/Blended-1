@@ -79,6 +79,7 @@ button{
 	width: 322px;
 	height: 456px;
 	color: #22343d;
+	text-align: center;
 }
 
 .pricing-list-item-title {
@@ -141,10 +142,14 @@ button{
 	color: #FFFFFF;
 }
 .pricing-list-item:nth-child(2)>
-.pricing-list-item-price,
+.pricing-list-item-price{
+	color: #fff;
+}
+.pricing-list-item:nth-child(2)
 .pricing-list-item-price-dollar{
 	color: #fff;
 }
+
 .pricing-list-item:nth-child(2)
 .pricing-list-item-price-month{
 	color: #e0e0e0;
