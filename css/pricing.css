@@ -1,0 +1,128 @@
+body {
+  font-family: var(--font-family);
+  color: #22343d;
+}
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+/* <!-- ---Pricing-SECTION START--- --> */
+
+.main-title,
+.enterprise-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align-last: center;
+}
+.pricing {
+}
+.pricing-title {
+  font-size: 40px;
+}
+.pricing-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.pricing-list {
+}
+.pricing-list-item {
+}
+.pricing-list-item-title {
+}
+.pricing-list-item-subtitle {
+}
+.pricing-list-item-price {
+}
+.pricing-list-item-price-dollar {
+}
+.pricing-list-item-price-month {
+}
+.pricing-sublist {
+}
+.pricing-sublist-item {
+}
+.pricing-button {
+}
+
+/* <!-- ---Pricing-SECTION END--- --> */
+
+/* <!-- ---Enterprice SECTION START--- --> */
+
+.enterprise {
+  text-align-last: center;
+}
+.enterprise-subtitle {
+}
+.enterprise-title {
+}
+.enterprise-text {
+  font-weight: 400;
+  font-size: 18px;
+}
+.enterprise-button {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background: #02897a;
+  border: 0px;
+}
+
+/* <!-- ---Enterprice SECTION END--- --> */
+
+/* <!-- ---Users SECTION START--- --> */
+
+.users {
+}
+.users-title {
+}
+.users-img {
+}
+.users-list {
+}
+.users-list-item {
+}
+.users-list-item-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+.users-list-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+/* <!-- ---Users SECTION END--- --> */
+
+/* <!-- ---Questions SECTION START--- --> */
+
+.question {
+}
+.question-title {
+}
+.question-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  text-align-last: center;
+}
+.question-list {
+}
+.question-list-item {
+}
+.question-list-item-ask {
+  font-weight: 500;
+  font-size: 18px;
+}
+.question-list-item-answer {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* <!-- ---Questions SECTION END--- --> */

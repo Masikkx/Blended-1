@@ -1,0 +1,171 @@
+body {
+  font-family: var(--font-family);
+  color: #22343d;
+}
+/* ---OUR-CLIENTS SECTION START--- */
+
+.our-clients {
+}
+
+.our-clients-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align-last: center;
+}
+.our-clients-list {
+}
+
+.our-clients-list-item {
+}
+
+.our-clients-list-item-link {
+}
+
+.our-clients-list-item-link-img {
+}
+
+/* ---OUR-CLIENTS SECTION END--- */
+
+/* ---BENEFITS SECTION START--- */
+
+.benefits {
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+.benefits-list {
+}
+
+.benefits-list-item {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  width: 350px;
+  height: 305px;
+  text-align: center;
+}
+
+.benefits-list-item-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.benefits-list-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  letter-spacing: 0em;
+}
+
+.benefits-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  letter-spacing: 0.01em;
+  width: 275px;
+  height: 108px;
+}
+
+/* ---BENEFITS SECTION END--- */
+
+/* ---INSTRUCTION SECTION START--- */
+
+.instruction {
+}
+
+.instruction-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+.instruction-list {
+}
+
+.instruction-list-item {
+}
+
+.instruction-list-img {
+}
+
+.instruction-list-subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.instruction-list-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.instruction-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.instruction-button {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background: #02897a;
+  border: 0px;
+}
+
+/* ---BINSTRUCTION SECTION END--- */
+
+/* ---OFFERS SECTION START--- */
+
+.offers {
+}
+
+.offers-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+.offers-list {
+}
+
+.offers-list-item {
+  text-align: center;
+}
+
+.offers-list-item-logo {
+}
+
+.offers-list-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 117%;
+  color: #000;
+}
+
+.offers-sublist {
+}
+
+.offers-sublist-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+  text-align: center;
+}
+
+.offers-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: #000;
+  text-align: center;
+}
+
+/* ---OFFERS SECTION END--- */
