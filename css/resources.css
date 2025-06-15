@@ -1,0 +1,197 @@
+body {
+  color: #22343d;
+  font-family: var(--font-family);
+}
+
+/* <!-- ---HERO SECTION START--- --> */
+
+.hero {
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 149%;
+  letter-spacing: -0.03em;
+}
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+}
+.hero-join-input {
+  border: 0px;
+  height: 61px;
+  border-radius: 100px;
+  width: 320px;
+}
+.hero-join-now {
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  width: 469px;
+  height: 66px;
+}
+.hero-join-button {
+  padding: 0px 19px 0px 24px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0%;
+  color: #fff;
+  border: 0px;
+  border-radius: 100px;
+  width: 117px;
+  height: 50px;
+  background: #02897a;
+}
+.hero-clients-img {
+}
+.hero-clients-list-title {
+  font-weight: 400;
+  font-size: 14px;
+}
+.hero-clients-list-title span {
+  font-weight: 500;
+  color: #02897a;
+}
+.hero-images-list {
+}
+.hero-images-list-item {
+}
+.hero-images-list-item-img {
+}
+
+/* <!-- ---HERO SECTION END--- --> */
+
+/* ---STORIES SECTION START--- */
+
+.stories {
+}
+.stories-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+.stories-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+}
+.stories-list {
+}
+.stories-list-item {
+  border-radius: 8px;
+  width: 348px;
+  height: 359px;
+  background: #fff;
+}
+.stories-list-item-img {
+}
+.stories-list-item-date {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+.stories-list-item-date span {
+  font-weight: 700;
+}
+.stories-list-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+}
+.stories-more-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144%;
+  background-color: #fff;
+  border: 0px;
+  color: #22343d;
+}
+
+/* ---STORIES SECTION END--- */
+
+/* ---CONTACT-US SECTION START--- */
+
+.contact-us {
+  text-align: center;
+}
+.contact-us-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 168%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #252b42;
+}
+.contact-us-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #374754;
+}
+.contact-us-socials-list {
+}
+.socials-list-item {
+}
+.socials-list-item-icon {
+}
+.contact-us-map {
+}
+.message-section {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 52px 50px;
+  width: 868px;
+  height: 670px;
+  background: #fff;
+}
+.message-section-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  letter-spacing: 0em;
+  color: #252b42;
+}
+.message-section-input-name,
+.message-section-input-email,
+.message-section-input-comment {
+  font-family: var(--font4);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  border: 1px solid #e8e8e8;
+  background: #f5f5f5;
+  border-radius: 39px;
+  padding: 19px 20px;
+  width: 768px;
+  height: 54px;
+}
+.message-section-input-email {
+}
+.message-section-input-comment {
+  border-radius: 0px;
+  padding: 23px 20px;
+  width: 768px;
+  height: 193px;
+}
+.message-section-button {
+  font-family: var(--font4);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  border-radius: 35px;
+  border: 0px;
+  padding: 18px 38px;
+  width: 145px;
+  height: 52px;
+  background: #02897a;
+}
+/* ---CONTACT-US SECTION END--- */
