@@ -73,7 +73,9 @@
         <nav class="page-nav">
           <ul class="page-nav-list">
             <li class="nav-list-item">
-              <a href="./index.html" class="nav-list-item-link">Product</a>
+              <a href="./index.html" class="nav-list-item-link current-link"
+                >Product</a
+              >
             </li>
             <li class="nav-list-item">
               <a href="./customers.html" class="nav-list-item-link"
@@ -81,9 +83,7 @@
               >
             </li>
             <li class="nav-list-item">
-              <a href="./pricing.html" class="nav-list-item-link current-link"
-                >Pricing</a
-              >
+              <a href="./pricing.html" class="nav-list-item-link">Pricing</a>
             </li>
             <li class="nav-list-item">
               <a href="./resources.html" class="nav-list-item-link"
@@ -94,68 +94,82 @@
         </nav>
         <ul class="reg-btn-list">
           <li class="reg-btn-list-item">
-            <button type="button" class="reg-btn-primary">Sign In</button>
+            <button type="button" class="reg-btn-primary primary">
+              Sign In
+            </button>
           </li>
           <li class="reg-btn-list-item">
-            <button type="button" class="reg-btn-secondary">Sign Up</button>
+            <button type="button" class="reg-btn-secondary secondary">
+              Sign Up
+            </button>
           </li>
         </ul>
       </div>
     </header>
 
     <main>
-      <h1 class="main-title">Pricing</h1>
-
       <!-- ---Pricing-SECTION--- -->
       <section class="pricing">
         <div class="container">
-          <h2 class="pricing-title">Let’s get some real work done here.</h2>
-          <p class="pricing-subtitle">
-            Prodict is your perfect solution for working. Get started now for
-            free
-          </p>
+          <h2 class="pricing-title">Price Table</h2>
+          <p class="pricing-subtitle">We offer competitive price</p>
           <ul class="pricing-list">
             <li class="pricing-list-item">
               <h3 class="pricing-list-item-title">Free</h3>
               <p class="pricing-list-item-subtitle">Brief price description</p>
-              <h4 class="pricing-list-item-price">
-                0 <span class="pricing-list-item-price-dollar">$</span>
-                <span class="pricing-list-item-price-month">Per / month</span>
-              </h4>
+              <div class="price">
+                <h4 class="pricing-list-item-price">0</h4>
+                <div class="price-wrapper">
+                  <span class="pricing-list-item-price-dollar">$</span>
+                  <span class="pricing-list-item-price-month">Per / month</span>
+                </div>
+              </div>
               <ul class="pricing-sublist">
                 <li class="pricing-sublist-item">Only 2 Operators</li>
                 <li class="pricing-sublist-item">Notifications</li>
                 <li class="pricing-sublist-item">Landing Pages</li>
               </ul>
-              <button type="button" class="pricing-button">Order now</button>
+              <button type="button" class="pricing-button secondary">
+                Order now
+              </button>
             </li>
             <li class="pricing-list-item">
               <h3 class="pricing-list-item-title">Standard</h3>
               <p class="pricing-list-item-subtitle">Brief price description</p>
-              <h4 class="pricing-list-item-price">
-                5 <span class="pricing-list-item-price-dollar">$</span>
-                <span class="pricing-list-item-price-month">Per / month</span>
-              </h4>
+              <div class="price">
+                <h4 class="pricing-list-item-price">5</h4>
+                <div class="price-wrapper">
+                  <span class="pricing-list-item-price-dollar">$</span>
+                  <span class="pricing-list-item-price-month">Per / month</span>
+                </div>
+              </div>
               <ul class="pricing-sublist">
                 <li class="pricing-sublist-item">5+ Operators</li>
                 <li class="pricing-sublist-item">Notifications</li>
                 <li class="pricing-sublist-item">Landing Pages</li>
               </ul>
-              <button type="button" class="pricing-button">Order now</button>
+              <button type="button" class="pricing-button primary">
+                Order now
+              </button>
             </li>
             <li class="pricing-list-item">
               <h3 class="pricing-list-item-title">Premium</h3>
               <p class="pricing-list-item-subtitle">Brief price description</p>
-              <h4 class="pricing-list-item-price">
-                10 <span class="pricing-list-item-price-dollar">$</span>
-                <span class="pricing-list-item-price-month">Per / month</span>
-              </h4>
+              <div class="price">
+                <h4 class="pricing-list-item-price">10</h4>
+                <div class="price-wrapper">
+                  <span class="pricing-list-item-price-dollar">$</span>
+                  <span class="pricing-list-item-price-month">Per / month</span>
+                </div>
+              </div>
               <ul class="pricing-sublist">
                 <li class="pricing-sublist-item">10+ Operators</li>
                 <li class="pricing-sublist-item">Notifications</li>
                 <li class="pricing-sublist-item">Landing Pages</li>
               </ul>
-              <button type="button" class="pricing-button">Order now</button>
+              <button type="button" class="pricing-button secondary">
+                Order now
+              </button>
             </li>
           </ul>
         </div>
@@ -281,12 +295,16 @@
       <!-- ---Get This SECTION--- -->
 
       <section class="promo">
-        <div class="container">
+        <div class="promo-card-div container">
           <div class="promo-card">
-            <h2 class="promo-card-title">
-              Join 100 Compannies who boost their business with Product
-            </h2>
-            <button type="button" class="promo-card-button">Get This</button>
+            <div class="promo-card-info">
+              <h2 class="promo-card-title">
+                Join 100 Compannies who boost their business with Product
+              </h2>
+              <button type="button" class="promo-card-button primary">
+                Get This
+              </button>
+            </div>
             <img
               src="./images/promo-card-image.png"
               alt="promo card image"
@@ -302,88 +320,98 @@
 
     <footer class="page-footer">
       <div class="container">
-        <a href="./index.html" class="logo">
-          <img
-            src="./images/logo.svg"
-            alt="logo icon"
-            width="40"
-            height="36"
-            class="logo-icon"
-          />Product
-        </a>
+        <div class="footer-links-wrapper">
+          <a href="./index.html" class="logo">
+            <img
+              src="./images/logo.svg"
+              alt="logo icon"
+              width="40"
+              height="36"
+              class="logo-icon"
+            />Product
+          </a>
 
-        <ul class="socials-list">
-          <li class="socials-list-item">
-            <a href="">
-              <img
-                src="./images/instagram.svg"
-                alt="instagram icon"
-                width="24"
-                height="24"
-                class="socials-list-item-icon"
-              />
-            </a>
-          </li>
-          <li class="socials-list-item">
-            <a href="">
-              <img
-                src="./images/facebook.svg"
-                alt="facebook icon"
-                width="24"
-                height="24"
-                class="socials-list-item-icon"
-              />
-            </a>
-          </li>
-          <li class="socials-list-item">
-            <a href="">
-              <img
-                src="./images/twitter.svg"
-                alt="twitter icon"
-                width="24"
-                height="24"
-                class="socials-list-item-icon"
-              />
-            </a>
-          </li>
-        </ul>
+          <ul class="socials-list">
+            <li class="socials-list-item">
+              <a href="">
+                <img
+                  src="./images/instagram.svg"
+                  alt="instagram icon"
+                  width="24"
+                  height="24"
+                  class="socials-list-item-icon"
+                />
+              </a>
+            </li>
+            <li class="socials-list-item">
+              <a href="">
+                <img
+                  src="./images/facebook.svg"
+                  alt="facebook icon"
+                  width="24"
+                  height="24"
+                  class="socials-list-item-icon"
+                />
+              </a>
+            </li>
+            <li class="socials-list-item">
+              <a href="">
+                <img
+                  src="./images/twitter.svg"
+                  alt="twitter icon"
+                  width="24"
+                  height="24"
+                  class="socials-list-item-icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
 
-        <h3 class="footer-sublist-title">Resource</h3>
-        <ul class="footer-sublist">
-          <li class="footer-sublist-item">
-            <a href="" class="footer-sublist-item-link">About Us</a>
-          </li>
-          <li class="footer-sublist-item">
-            <a href="" class="footer-sublist-item-link">Blog</a>
-          </li>
-          <li class="footer-sublist-item">
-            <a href="" class="footer-sublist-item-link">Contact</a>
-          </li>
-          <li class="footer-sublist-item">
-            <a href="" class="footer-sublist-item-link">FAQ</a>
-          </li>
-        </ul>
-        <h3 class="footer-sublist-title">Legal Stuff</h3>
-        <ul class="footer-sublist">
-          <li class="footer-sublist-item">
-            <a href="" class="footer-sublist-item-link">Disclaimer</a>
-          </li>
-          <li class="footer-sublist-item">
-            <a href="" class="footer-sublist-item-link">Financing</a>
-          </li>
-          <li class="footer-sublist-item">
-            <a href="" class="footer-sublist-item-link">Privacy Policy</a>
-          </li>
-        </ul>
-        <h3 class="sign-up-title">
-          knowing you're always on the best energy deal.
-        </h3>
-        <input type="email" class="sign-up-input" />
-        <button class="sign-up-button">Sign up Now</button>
-        <p class="author-comment">
-          Made With Love By Figmaland All Right Reserved
-        </p>
+        <div class="page-sublists-wrapper">
+          <div class="footer-resource-sublist">
+            <h3 class="footer-sublist-title">Resource</h3>
+            <ul class="footer-sublist">
+              <li class="footer-sublist-item">
+                <a href="" class="footer-sublist-item-link">About Us</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a href="" class="footer-sublist-item-link">Blog</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a href="" class="footer-sublist-item-link">Contact</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a href="" class="footer-sublist-item-link">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-stuff-sublist">
+            <h3 class="footer-sublist-title">Legal Stuff</h3>
+            <ul class="footer-sublist">
+              <li class="footer-sublist-item">
+                <a href="" class="footer-sublist-item-link">Disclaimer</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a href="" class="footer-sublist-item-link">Financing</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a href="" class="footer-sublist-item-link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-reg-wrapper">
+          <h3 class="sign-up-title">
+            knowing you're always on the best energy deal.
+          </h3>
+          <input type="email" class="sign-up-input" />
+          <button class="sign-up-button secondary">Sign up Now</button>
+        </div>
       </div>
+      <p class="author-comment">
+        Made With Love By Figmaland All Right Reserved
+      </p>
     </footer>
   </body>
 </html>
