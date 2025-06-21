@@ -3,42 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Poppins font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Inter font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Montsert font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- ProximaNova font -->
-    <link
-      href="https://use.typekit.net/ВАШ-КОД.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
-    <!-- Roboto font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
+    <title>Business promotion</title>
     <!-- ---Normalizer--- -->
     <link
       rel="stylesheet"
@@ -47,14 +12,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- ---layout.css--- -->
-    <link rel="stylesheet" href="./css/layout.css" />
-    <!-- ---pricing.css--- -->
-    <link rel="stylesheet" href="./css/pricing.css" />
-
-    <title>Business promotion-pricing</title>
+    <!-- --- Font --- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ---index.css--- -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
     <!-- ---PAGE-HEADER--- -->
 
@@ -73,9 +40,7 @@
         <nav class="page-nav">
           <ul class="page-nav-list">
             <li class="nav-list-item">
-              <a href="./index.html" class="nav-list-item-link current-link"
-                >Product</a
-              >
+              <a href="./index.html" class="nav-list-item-link">Product</a>
             </li>
             <li class="nav-list-item">
               <a href="./customers.html" class="nav-list-item-link"
@@ -83,7 +48,9 @@
               >
             </li>
             <li class="nav-list-item">
-              <a href="./pricing.html" class="nav-list-item-link">Pricing</a>
+              <a href="./pricing.html" class="nav-list-item-link current-link"
+                >Pricing</a
+              >
             </li>
             <li class="nav-list-item">
               <a href="./resources.html" class="nav-list-item-link"
@@ -94,14 +61,10 @@
         </nav>
         <ul class="reg-btn-list">
           <li class="reg-btn-list-item">
-            <button type="button" class="reg-btn-primary primary">
-              Sign In
-            </button>
+            <button type="button" class="reg-btn primary">Sign In</button>
           </li>
           <li class="reg-btn-list-item">
-            <button type="button" class="reg-btn-secondary secondary">
-              Sign Up
-            </button>
+            <button type="button" class="reg-btn secondary">Sign Up</button>
           </li>
         </ul>
       </div>
@@ -129,7 +92,10 @@
                 <li class="pricing-sublist-item">Notifications</li>
                 <li class="pricing-sublist-item">Landing Pages</li>
               </ul>
-              <button type="button" class="pricing-button secondary">
+              <button
+                type="button"
+                class="pricing-button pricing-button-primary"
+              >
                 Order now
               </button>
             </li>
@@ -148,7 +114,10 @@
                 <li class="pricing-sublist-item">Notifications</li>
                 <li class="pricing-sublist-item">Landing Pages</li>
               </ul>
-              <button type="button" class="pricing-button primary">
+              <button
+                type="button"
+                class="pricing-button pricing-button-secondary"
+              >
                 Order now
               </button>
             </li>
@@ -167,7 +136,10 @@
                 <li class="pricing-sublist-item">Notifications</li>
                 <li class="pricing-sublist-item">Landing Pages</li>
               </ul>
-              <button type="button" class="pricing-button secondary">
+              <button
+                type="button"
+                class="pricing-button pricing-button-primary"
+              >
                 Order now
               </button>
             </li>
@@ -295,13 +267,16 @@
       <!-- ---Get This SECTION--- -->
 
       <section class="promo">
-        <div class="promo-card-div container">
+        <div class="container">
           <div class="promo-card">
             <div class="promo-card-info">
               <h2 class="promo-card-title">
                 Join 100 Compannies who boost their business with Product
               </h2>
-              <button type="button" class="promo-card-button primary">
+              <button
+                type="button"
+                class="promo-card-button pricing-button-secondary"
+              >
                 Get This
               </button>
             </div>
@@ -317,101 +292,102 @@
     </main>
 
     <!-- ---Footer SECTION--- -->
-
     <footer class="page-footer">
       <div class="container">
-        <div class="footer-links-wrapper">
-          <a href="./index.html" class="logo">
-            <img
-              src="./images/logo.svg"
-              alt="logo icon"
-              width="40"
-              height="36"
-              class="logo-icon"
-            />Product
-          </a>
+        <div class="page-footer-wrapper">
+          <div class="footer-links-wrapper">
+            <a href="./index.html" class="logo">
+              <img
+                src="./images/logo.svg"
+                alt="logo icon"
+                width="40"
+                height="36"
+                class="logo-icon"
+              />Product
+            </a>
 
-          <ul class="socials-list">
-            <li class="socials-list-item">
-              <a href="">
-                <img
-                  src="./images/instagram.svg"
-                  alt="instagram icon"
-                  width="24"
-                  height="24"
-                  class="socials-list-item-icon"
-                />
-              </a>
-            </li>
-            <li class="socials-list-item">
-              <a href="">
-                <img
-                  src="./images/facebook.svg"
-                  alt="facebook icon"
-                  width="24"
-                  height="24"
-                  class="socials-list-item-icon"
-                />
-              </a>
-            </li>
-            <li class="socials-list-item">
-              <a href="">
-                <img
-                  src="./images/twitter.svg"
-                  alt="twitter icon"
-                  width="24"
-                  height="24"
-                  class="socials-list-item-icon"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="page-sublists-wrapper">
-          <div class="footer-resource-sublist">
-            <h3 class="footer-sublist-title">Resource</h3>
-            <ul class="footer-sublist">
-              <li class="footer-sublist-item">
-                <a href="" class="footer-sublist-item-link">About Us</a>
+            <ul class="socials-list">
+              <li class="socials-list-item">
+                <a href="">
+                  <img
+                    src="./images/instagram.svg"
+                    alt="instagram icon"
+                    width="24"
+                    height="24"
+                    class="socials-list-item-icon"
+                  />
+                </a>
               </li>
-              <li class="footer-sublist-item">
-                <a href="" class="footer-sublist-item-link">Blog</a>
+              <li class="socials-list-item">
+                <a href="">
+                  <img
+                    src="./images/facebook.svg"
+                    alt="facebook icon"
+                    width="24"
+                    height="24"
+                    class="socials-list-item-icon"
+                  />
+                </a>
               </li>
-              <li class="footer-sublist-item">
-                <a href="" class="footer-sublist-item-link">Contact</a>
-              </li>
-              <li class="footer-sublist-item">
-                <a href="" class="footer-sublist-item-link">FAQ</a>
+              <li class="socials-list-item">
+                <a href="">
+                  <img
+                    src="./images/twitter.svg"
+                    alt="twitter icon"
+                    width="24"
+                    height="24"
+                    class="socials-list-item-icon"
+                  />
+                </a>
               </li>
             </ul>
           </div>
-          <div class="footer-stuff-sublist">
-            <h3 class="footer-sublist-title">Legal Stuff</h3>
-            <ul class="footer-sublist">
-              <li class="footer-sublist-item">
-                <a href="" class="footer-sublist-item-link">Disclaimer</a>
-              </li>
-              <li class="footer-sublist-item">
-                <a href="" class="footer-sublist-item-link">Financing</a>
-              </li>
-              <li class="footer-sublist-item">
-                <a href="" class="footer-sublist-item-link">Privacy Policy</a>
-              </li>
-            </ul>
+
+          <div class="page-sublists-wrapper">
+            <div class="footer-resource-sublist">
+              <h3 class="footer-sublist-title">Resource</h3>
+              <ul class="footer-sublist">
+                <li class="footer-sublist-item">
+                  <a href="" class="footer-sublist-item-link">About Us</a>
+                </li>
+                <li class="footer-sublist-item">
+                  <a href="" class="footer-sublist-item-link">Blog</a>
+                </li>
+                <li class="footer-sublist-item">
+                  <a href="" class="footer-sublist-item-link">Contact</a>
+                </li>
+                <li class="footer-sublist-item">
+                  <a href="" class="footer-sublist-item-link">FAQ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-stuff-sublist">
+              <h3 class="footer-sublist-title">Legal Stuff</h3>
+              <ul class="footer-sublist">
+                <li class="footer-sublist-item">
+                  <a href="" class="footer-sublist-item-link">Disclaimer</a>
+                </li>
+                <li class="footer-sublist-item">
+                  <a href="" class="footer-sublist-item-link">Financing</a>
+                </li>
+                <li class="footer-sublist-item">
+                  <a href="" class="footer-sublist-item-link">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-reg-wrapper">
+            <h3 class="sign-up-title">
+              knowing you're always on the best energy deal.
+            </h3>
+            <input type="email" class="sign-up-input" />
+            <button class="sign-up-button secondary">Sign up Now</button>
           </div>
         </div>
-        <div class="footer-reg-wrapper">
-          <h3 class="sign-up-title">
-            knowing you're always on the best energy deal.
-          </h3>
-          <input type="email" class="sign-up-input" />
-          <button class="sign-up-button secondary">Sign up Now</button>
-        </div>
+        <p class="author-comment">
+          Made With Love By Figmaland All Right Reserved
+        </p>
       </div>
-      <p class="author-comment">
-        Made With Love By Figmaland All Right Reserved
-      </p>
     </footer>
   </body>
 </html>

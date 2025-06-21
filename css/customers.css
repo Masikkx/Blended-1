@@ -5,14 +5,22 @@ body {
 /* ---OUR-CLIENTS SECTION START--- */
 
 .our-clients {
+  padding: 100px 0 117px 0;
 }
-
+.our-clients .container {
+  padding: 0 150px;
+}
 .our-clients-title {
   font-weight: 700;
   font-size: 40px;
   text-align-last: center;
+  margin-bottom: 50px;
 }
 .our-clients-list {
+  display: flex;
+  gap: 64px;
+  padding: 16px 0;
+  align-items: center;
 }
 
 .our-clients-list-item {
@@ -29,24 +37,32 @@ body {
 /* ---BENEFITS SECTION START--- */
 
 .benefits {
+  padding: 24px 0 68px 0;
 }
 
 .benefits-title {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .benefits-list {
+  display: flex;
+  gap: 30px;
 }
 
 .benefits-list-item {
   border: 1px solid #dedede;
   border-radius: 10px;
   text-align: center;
+  padding: 32px 0px 34px 0px;
+  width: calc((100% - 60px) / 3);
 }
 
 .benefits-list-item-icon {
+  margin-bottom: 32px;
+  margin: 0 auto 32px auto;
 }
 
 .benefits-list-item-title {
@@ -54,6 +70,7 @@ body {
   font-size: 24px;
   line-height: 137%;
   letter-spacing: 0em;
+  margin-bottom: 16px;
 }
 
 .benefits-list-text {
@@ -61,6 +78,8 @@ body {
   font-size: 16px;
   line-height: 169%;
   letter-spacing: 0.01em;
+  max-width: 275px;
+  margin: 0 auto;
 }
 
 /* ---BENEFITS SECTION END--- */
@@ -69,31 +88,51 @@ body {
 
 .instruction {
 }
-
+.instruction .container {
+  padding: 100px 60px 115px 60px;
+}
 .instruction-title {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
+  margin-bottom: 74px;
 }
 
 .instruction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 77px;
 }
 
 .instruction-list-item {
+  display: flex;
 }
-
+.instruction-list-item:nth-child(2) {
+  flex-direction: row-reverse;
+}
 .instruction-list-img {
 }
-
+.instruction-text-wrapper {
+  padding: 35px 0 35px 89px;
+}
+.instruction-list-item:nth-child(2) .instruction-text-wrapper {
+  padding: 49px 76px 49px 0;
+}
+.instruction-list-item:nth-child(3) .instruction-text-wrapper {
+  padding: 49px 0px 49px 88px;
+}
 .instruction-list-subtitle {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
+  margin-bottom: 16px;
 }
 
 .instruction-list-title {
   font-weight: 600;
   font-size: 24px;
+  margin-bottom: 16px;
 }
 
 .instruction-list-text {
@@ -110,22 +149,32 @@ body {
   border-radius: 8px;
   background: #02897a;
   border: 0px;
+  min-width: 224px;
+  height: 44px;
+  margin: 0 auto;
 }
 
 /* ---BINSTRUCTION SECTION END--- */
 
 /* ---OFFERS SECTION START--- */
 
-.offers {
+.offers .container {
+  padding: 35px 212px 45px 212px;
+  margin-bottom: 150px;
 }
 
 .offers-title {
   font-weight: 700;
   font-size: 32px;
   text-align: center;
+  max-width: 537px;
+  margin: 0 auto;
+  margin-bottom: 93px;
 }
 
 .offers-list {
+  display: flex;
+  gap: 227px;
 }
 
 .offers-list-item {
@@ -133,6 +182,8 @@ body {
 }
 
 .offers-list-item-logo {
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .offers-list-title {
@@ -140,9 +191,11 @@ body {
   font-size: 24px;
   line-height: 117%;
   color: #000;
+  margin-bottom: 16px;
 }
 
 .offers-sublist {
+  margin-bottom: 12px;
 }
 
 .offers-sublist-item {
