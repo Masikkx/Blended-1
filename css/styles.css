@@ -276,7 +276,7 @@ img {
 /* ---PROMO SECTION START--- */
 
 .promo .container {
-  padding: 0 91px 100px 0;
+  padding: 0 91px 100px 91px;
 }
 .promo-card {
   border-radius: 32px;
@@ -390,7 +390,7 @@ img {
 
 /* ---FOOTER SECTION END--- */
 
-/* -------------------INDEX.HTML PAGE------------------- */
+/* ------------------------------------------------------------------------INDEX.HTML PAGE------------------------------------------------------------------------ */
 
 /* ---HERO SECTION START--- */
 
@@ -781,3 +781,609 @@ img {
 }
 
 /* ---REVIEWS SECTION END--- */
+
+/* ------------------------------------------------------------------------CUSTOMERS.HTML PAGE------------------------------------------------------------------------ */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #22343d;
+}
+/* ---OUR-CLIENTS SECTION START--- */
+
+.our-clients {
+  padding: 100px 0 117px 0;
+}
+.our-clients .container {
+  padding: 0 150px;
+}
+.our-clients-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align-last: center;
+  margin-bottom: 50px;
+}
+.our-clients-list {
+  display: flex;
+  gap: 64px;
+  padding: 20px 0;
+  align-items: center;
+}
+
+/* ---OUR-CLIENTS SECTION END--- */
+
+/* ---BENEFITS SECTION START--- */
+
+.benefits {
+  padding: 24px 0 68px 0;
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 30px;
+}
+
+.benefits-list-item {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  text-align: center;
+  padding: 32px 0px 34px 0px;
+  width: calc((100% - 60px) / 3);
+}
+
+.benefits-list-item-icon {
+  margin-bottom: 32px;
+  margin: 0 auto 32px auto;
+}
+
+.benefits-list-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  letter-spacing: 0em;
+  margin-bottom: 16px;
+}
+
+.benefits-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  letter-spacing: 0.01em;
+  max-width: 275px;
+  margin: 0 auto;
+}
+
+/* ---BENEFITS SECTION END--- */
+
+/* ---INSTRUCTION SECTION START--- */
+
+.instruction .container {
+  padding: 100px 60px 115px 60px;
+}
+.instruction-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+.instruction-list {
+  margin-bottom: 77px;
+}
+.instruction-list-item {
+  display: flex;
+}
+.instruction-list-item:not(:last-child) {
+  margin-bottom: 100px;
+}
+.instruction-list-item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.instruction-text-wrapper {
+  padding-left: 89px;
+  margin: auto 0;
+}
+.instruction-list-item:nth-child(2) .instruction-text-wrapper {
+  padding-right: 76px;
+  margin: auto 0;
+}
+.instruction-list-subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.instruction-list-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.instruction-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+.instruction-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  background: #02897a;
+  border: 0px;
+  min-width: 224px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+/* ---BINSTRUCTION SECTION END--- */
+
+/* ---OFFERS SECTION START--- */
+
+.offers .container {
+  padding: 35px 212px 195px 212px;
+}
+.offers-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  max-width: 537px;
+  margin: 0 auto;
+  margin-bottom: 93px;
+}
+.offers-list {
+  display: flex;
+  gap: 227px;
+}
+.offers-list-item {
+  text-align: center;
+}
+.offers-list-item-logo {
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+.offers-list-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 117%;
+  color: #000;
+  margin-bottom: 16px;
+}
+.offers-sublist {
+  margin-bottom: 12px;
+}
+.offers-sublist-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+  text-align: center;
+}
+.offers-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: #000;
+  text-align: center;
+}
+
+/* ---OFFERS SECTION END--- */
+
+/* ------------------------------------------------------------------------PRICING.HTML PAGE------------------------------------------------------------------------ */
+
+/* <!-- ---Pricing-SECTION START--- --> */
+.pricing-page {
+  padding-bottom: 150px;
+}
+.price-title {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.price-subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.price-text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 49px;
+}
+.price-list-item {
+  font-family: "Poppins", sans-serif;
+}
+.price-list-item .pricing-list-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+}
+.price-list-item .pricing-list-item-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+}
+.price-list-item .pricing-list-item-price {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.price-list-item .pricing-sublist-item,
+.price-list-item .pricing-list-item-price-dollar,
+.price-list-item .pricing-list-item-price-month {
+  font-family: "Inter", sans-serif;
+}
+
+/* <!-- ---Pricing-SECTION END--- --> */
+
+/* <!-- ---Enterprice SECTION START--- --> */
+
+.enterprise {
+  padding: 53px 0 345px 0;
+  text-align: center;
+}
+.enterprise-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.enterprise-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+.enterprise-text {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.enterprise-button {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  background: #02897a;
+  border: 0px;
+  margin: 0 auto;
+  min-width: 224px;
+  height: 44px;
+}
+.enterprise-button:hover,
+.enterprise-button:focus,
+.enterprise-button:active {
+  border-radius: 8px;
+}
+
+/* <!-- ---Enterprice SECTION END--- --> */
+
+/* <!-- ---Users SECTION START--- --> */
+
+.users {
+}
+.users-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.users-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+.users-list-item-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+.users-list-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+/* <!-- ---Users SECTION END--- --> */
+
+/* <!-- ---Questions SECTION START--- --> */
+
+.question .container {
+  padding: 0px 115px 150px 115px;
+}
+.question-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.question-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  text-align-last: center;
+  margin-bottom: 50px;
+}
+.question-list {
+}
+.question-list-item {
+}
+.question-list-item-ask {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 0 38px 40px;
+}
+.question-list-item-answer {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+/* <!-- ---Questions SECTION END--- --> */
+
+/* ------------------------------------------------------------------------RESOURCES.HTML PAGE------------------------------------------------------------------------ */
+
+/* <!-- ---HERO SECTION START--- --> */
+
+.resources-hero {
+  padding: 76px 0 67px 0;
+}
+.resources-hero .container {
+  display: flex;
+  align-items: flex-start;
+}
+.resources-hero-info-wrapper {
+}
+.resources-hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.49;
+  letter-spacing: -0.03em;
+  max-width: 380px;
+  margin-bottom: 24px;
+}
+.resources-hero-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+  max-width: 535px;
+  margin-bottom: 24px;
+}
+.resources-hero-join-now {
+  display: flex;
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  width: 469px;
+  height: 66px;
+  align-items: center;
+  padding: 0 8px;
+  margin-bottom: 24px;
+}
+.resources-hero-join-input {
+  height: 50px;
+  min-width: 320px;
+  border-radius: 100px;
+  border: 0px;
+  padding: 0 10px;
+}
+.resources-hero-join-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0;
+  color: #fff;
+  background: #02897a;
+  border-radius: 100px;
+  padding: 24px;
+  min-width: 117px;
+  height: 50px;
+  margin-left: auto;
+}
+.resources-hero-join-button:hover,
+.resources-hero-join-button:focus,
+.resources-hero-join-button:active {
+  border-radius: 100px;
+}
+
+.resources-hero-images-list {
+  position: relative; /* потрібне для абсолютного позиціонування всередині */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: fit-content; /* або конкретну ширину */
+}
+
+.resources-hero-images-list-item {
+  position: relative;
+}
+
+/* Перша картинка — просто стоїть */
+.resources-hero-images-list-item:first-child {
+  z-index: 1;
+}
+
+/* Друга картинка — накладається поверх */
+.resources-hero-images-list-item:last-child {
+  position: absolute;
+  top: 182px; /* зсув вниз */
+  left: 219px; /* зсув вправо */
+  z-index: 2; /* поверх першої */
+}
+
+/* <!-- ---HERO SECTION END--- --> */
+
+/* ---STORIES SECTION START--- */
+
+.stories {
+  padding-bottom: 100px;
+}
+.stories-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.stories-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.stories-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.stories-list-item {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  background: #fff;
+
+  width: calc((100% - 64px) / 3);
+}
+.stories-list-item-img {
+  border-radius: 8px 8px 0px 0px;
+}
+.stories-list-item-info {
+  padding: 22px 0px 40px 24px;
+}
+.stories-list-item-date {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+.stories-list-item-date span {
+  font-weight: 700;
+}
+.stories-list-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+}
+.stories-more-button {
+  color: #22343d;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144%;
+  border: 0px;
+  margin: 0 auto;
+}
+
+/* ---STORIES SECTION END--- */
+
+/* ---CONTACT-US SECTION START--- */
+.contact-us .container {
+  padding: 60px 140px 52px 140px;
+}
+.contact-us {
+  text-align: center;
+}
+.contact-us-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 168%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #252b42;
+  margin-bottom: 17px;
+}
+.contact-us-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #374754;
+  max-width: 312px;
+  margin: 0 auto 65px auto;
+}
+.contact-us-socials-list {
+  justify-content: center;
+  margin-bottom: 65px;
+  display: flex;
+  gap: 22px;
+}
+.socials-list-item {
+  border-radius: 100%;
+  fill: #edfffc;
+  width: 50px;
+  height: 50px;
+}
+.socials-list-item-icon {
+  margin: 10px 10px;
+}
+.contact-us-map {
+  margin-bottom: 60px;
+}
+.message-section {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 51px 50px 52px 50px;
+  background: #fff;
+}
+.message-section-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  letter-spacing: 0em;
+  color: #252b42;
+  margin-bottom: 45px;
+}
+.message-section-input-name,
+.message-section-input-email,
+.message-section-input-comment {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  border: 1px solid #e8e8e8;
+  background: #f5f5f5;
+  border-radius: 39px;
+  padding: 19px 0 19px 20px;
+}
+.message-section-input-name,
+.message-section-input-email {
+  width: 768px;
+  height: 54px;
+  margin-bottom: 45px;
+}
+.message-section-input-comment {
+  width: 768px;
+  height: 193px;
+  border-radius: 0px;
+  padding: 23px 20px;
+  margin-bottom: 45px;
+}
+.message-section-button {
+  font-family: var(--font4);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  border-radius: 35px;
+  border: 0px;
+  padding: 18px 38px;
+  background: #02897a;
+  min-width: 145px;
+  height: 52px;
+}
+.message-section-button:hover,
+.message-section-button:focus,
+.message-section-button:active {
+  border-radius: 35px;
+}
+/* ---CONTACT-US SECTION END--- */
