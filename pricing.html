@@ -28,19 +28,17 @@
     <header class="page-header">
       <div class="container">
         <a href="./index.html" class="logo">
-          <img
-            src="./images/logo.svg"
-            alt="logo"
-            width="40"
-            height="36"
-            class="logo-img"
-          />
+          <svg class="" width="40" height="36">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
           Product
         </a>
         <nav class="page-nav">
           <ul class="page-nav-list">
             <li class="nav-list-item">
-              <a href="./index.html" class="nav-list-item-link">Product</a>
+              <a href="./index.html" class="nav-list-item-link current-link"
+                >Product</a
+              >
             </li>
             <li class="nav-list-item">
               <a href="./customers.html" class="nav-list-item-link"
@@ -48,9 +46,7 @@
               >
             </li>
             <li class="nav-list-item">
-              <a href="./pricing.html" class="nav-list-item-link current-link"
-                >Pricing</a
-              >
+              <a href="./pricing.html" class="nav-list-item-link">Pricing</a>
             </li>
             <li class="nav-list-item">
               <a href="./resources.html" class="nav-list-item-link"
@@ -67,9 +63,18 @@
             <button type="button" class="reg-btn secondary">Sign Up</button>
           </li>
         </ul>
+        <button type="button" class="menu">
+          <svg class="menu-icon" width="28" height="31">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <button type="button" class="theme-btn">
+          <svg class="theme-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-theme"></use>
+          </svg>
+        </button>
       </div>
     </header>
-
     <main>
       <!-- ---Pricing-SECTION--- -->
       <section class="pricing pricing-page">
@@ -180,12 +185,17 @@
             <img
               src="./images/pricing-users-img.svg"
               alt="Pricing users image"
-              width="528"
-              height="392"
+              width="352"
+              height="288"
               class="users-img"
             />
             <ul class="users-list">
               <li class="users-list-item">
+                <div class="users-list-icon-wrapper">
+                  <svg class="users-list-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-enterpreneur"></use>
+                  </svg>
+                </div>
                 <h3 class="users-list-item-title">Enterpreneur</h3>
                 <p class="users-list-item-text">
                   Product is a great way to help medium and samall enterprise
@@ -193,6 +203,11 @@
                 </p>
               </li>
               <li class="users-list-item">
+                <div class="users-list-icon-wrapper">
+                  <svg class="users-list-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-accountants"></use>
+                  </svg>
+                </div>
                 <h3 class="users-list-item-title">Accountants</h3>
                 <p class="users-list-item-text">
                   Whether you are working on contract with clients, or on other
@@ -200,6 +215,11 @@
                 </p>
               </li>
               <li class="users-list-item">
+                <div class="users-list-icon-wrapper">
+                  <svg class="users-list-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-universities"></use>
+                  </svg>
+                </div>
                 <h3 class="users-list-item-title">Universities</h3>
                 <p class="users-list-item-text">
                   Organize university projects and have documents easily graded
@@ -221,6 +241,9 @@
           </p>
           <ul class="question-list">
             <li class="question-list-item">
+              <svg class="questions-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plus"></use>
+              </svg>
               <h3 class="question-list-item-ask">
                 What are my payment option?
               </h3>
@@ -233,6 +256,9 @@
               </p>
             </li>
             <li class="question-list-item">
+              <svg class="questions-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plus"></use>
+              </svg>
               <h3 class="question-list-item-ask">
                 How can I invite collaborator to platform?
               </h3>
@@ -245,6 +271,9 @@
               </p>
             </li>
             <li class="question-list-item">
+              <svg class="questions-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plus"></use>
+              </svg>
               <h3 class="question-list-item-ask">Can I upgrade my plan?</h3>
               <p class="question-list-item-answer">
                 After creating your account you will have an oppurtunity to
@@ -255,6 +284,9 @@
               </p>
             </li>
             <li class="question-list-item">
+              <svg class="questions-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plus"></use>
+              </svg>
               <h3 class="question-list-item-ask">
                 Can I cancel my plan at anytime?
               </h3>
@@ -287,8 +319,9 @@
               </button>
             </div>
             <img
-              src="./images/promo-card-image.png"
+              src="./images/promo-img.svg"
               alt="promo card image"
+              width="351"
               height="331"
               class="promo-card-image"
             />
@@ -298,52 +331,38 @@
     </main>
 
     <!-- ---Footer SECTION--- -->
+
     <footer class="page-footer">
       <div class="container">
         <div class="page-footer-wrapper">
           <div class="footer-links-wrapper">
             <a href="./index.html" class="logo">
-              <img
-                src="./images/logo.svg"
-                alt="logo icon"
-                width="40"
-                height="36"
-                class="logo-icon"
-              />Product
+              <svg class="logo-icon" width="32" height="29">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+              Product
             </a>
 
             <ul class="socials-list">
               <li class="socials-list-item">
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="instagram icon"
-                    width="24"
-                    height="24"
-                    class="socials-list-item-icon"
-                  />
+                <a href="" class="social-list-link">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
               <li class="socials-list-item">
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="facebook icon"
-                    width="24"
-                    height="24"
-                    class="socials-list-item-icon"
-                  />
+                <a href="" class="social-list-link">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
                 </a>
               </li>
               <li class="socials-list-item">
-                <a href="">
-                  <img
-                    src="./images/twitter.svg"
-                    alt="twitter icon"
-                    width="24"
-                    height="24"
-                    class="socials-list-item-icon"
-                  />
+                <a href="" class="social-list-link">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
@@ -351,7 +370,7 @@
 
           <div class="page-sublists-wrapper">
             <div class="footer-resource-sublist">
-              <h3 class="footer-sublist-title">Resource</h3>
+              <p class="footer-sublist-title">Resource</p>
               <ul class="footer-sublist">
                 <li class="footer-sublist-item">
                   <a href="" class="footer-sublist-item-link">About Us</a>
@@ -368,7 +387,7 @@
               </ul>
             </div>
             <div class="footer-stuff-sublist">
-              <h3 class="footer-sublist-title">Legal Stuff</h3>
+              <p class="footer-sublist-title">Legal Stuff</p>
               <ul class="footer-sublist">
                 <li class="footer-sublist-item">
                   <a href="" class="footer-sublist-item-link">Disclaimer</a>
@@ -383,11 +402,28 @@
             </div>
           </div>
           <div class="footer-reg-wrapper">
-            <h3 class="sign-up-title">
+            <p class="sign-up-title">
               knowing you're always on the best energy deal.
-            </h3>
-            <input type="email" class="sign-up-input" />
-            <button class="sign-up-button secondary">Sign up Now</button>
+            </p>
+            <form class="sign-up-form">
+              <label for="user-tel" class="sign-up-wrapper">
+                <input
+                  type="tel"
+                  id="user-tel"
+                  class="sign-up-input"
+                  placeholder="Enter your phone number"
+                  required
+                  name="user-tel"
+                />
+                <svg class="form-input-icon" width="18" height="28">
+                  <use href="./images/icons.svg#icon-subscribe-input"></use>
+                </svg>
+              </label>
+
+              <button type="submit" class="sign-up-button secondary">
+                Sign up Now
+              </button>
+            </form>
           </div>
         </div>
         <p class="author-comment">

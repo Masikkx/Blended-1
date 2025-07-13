@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- ---index.css--- -->
+    <!-- ---styles.css--- -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -28,13 +28,9 @@
     <header class="page-header">
       <div class="container">
         <a href="./index.html" class="logo">
-          <img
-            src="./images/logo.svg"
-            alt="logo"
-            width="40"
-            height="36"
-            class="logo-img"
-          />
+          <svg class="" width="40" height="36">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
           Product
         </a>
         <nav class="page-nav">
@@ -67,6 +63,16 @@
             <button type="button" class="reg-btn secondary">Sign Up</button>
           </li>
         </ul>
+        <button type="button" class="menu">
+          <svg class="menu-icon" width="28" height="31">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <button type="button" class="theme-btn">
+          <svg class="theme-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-theme"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -75,6 +81,13 @@
 
       <section class="hero">
         <div class="container">
+          <img
+            src="./images/hero-img.svg"
+            alt="hero image"
+            width="338"
+            height="310"
+            class="hero-img"
+          />
           <div class="hero-info-wrapper">
             <h1 class="hero-title">Work at the speed of thought</h1>
             <p class="hero-subtitle">
@@ -89,17 +102,14 @@
               </li>
               <li class="hero-button-list-item">
                 <button type="button" class="hero-button-secondary">
-                  Watch the Video
+                  <svg class="" width="20" height="17">
+                    <use href="./images/icons.svg#icon-start-video"></use>
+                  </svg>
+                  <div class="hero-secondary-text">Watch the Video</div>
                 </button>
               </li>
             </ul>
           </div>
-          <img
-            src="./images/hero-img.svg"
-            alt="hero image"
-            width="610"
-            height="555"
-          />
         </div>
       </section>
 
@@ -111,52 +121,44 @@
           </h2>
           <ul class="advantages-list">
             <li class="advantages-list-item">
-              <img
-                src="./images/icon-1.svg"
-                alt="icon 1"
-                width="54"
-                height="54"
-                class="advantages-list-img"
-              />
+              <div class="advantages-icon-wrapper">
+                <svg class="advantages-icon" width="12" height="18">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </div>
               <h3 class="advantages-list-item-title">First click tests</h3>
               <p class="advantages-list-item-text">
                 While most people enjoy casino gambling,
               </p>
             </li>
             <li class="advantages-list-item">
-              <img
-                src="./images/icon-2.svg"
-                alt="icon 2"
-                width="54"
-                height="54"
-                class="advantages-list-img"
-              />
+              <div class="advantages-icon-wrapper">
+                <svg class="advantages-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-vawe"></use>
+                </svg>
+              </div>
               <h3 class="advantages-list-item-title">Design surveys</h3>
               <p class="advantages-list-item-text">
                 Sports betting, lottery and bingo playing for the fun
               </p>
             </li>
             <li class="advantages-list-item">
-              <img
-                src="./images/icon-3.svg"
-                alt="icon 3"
-                width="54"
-                height="54"
-                class="advantages-list-img"
-              />
+              <div class="advantages-icon-wrapper">
+                <svg class="advantages-icon" width="16" height="18">
+                  <use href="./images/icons.svg#icon-heart"></use>
+                </svg>
+              </div>
               <h3 class="advantages-list-item-title">Preference tests</h3>
               <p class="advantages-list-item-text">
                 The Myspace page defines the individual.
               </p>
             </li>
             <li class="advantages-list-item">
-              <img
-                src="./images/icon-4.svg"
-                alt="icon 4"
-                width="54"
-                height="54"
-                class="advantages-list-img"
-              />
+              <div class="advantages-icon-wrapper">
+                <svg class="advantages-icon" width="14" height="18">
+                  <use href="./images/icons.svg#icon-time"></use>
+                </svg>
+              </div>
               <h3 class="advantages-list-item-title">Five second tests</h3>
               <p class="advantages-list-item-text">
                 Personal choices and the overall personality of the person.
@@ -176,9 +178,16 @@
           <h2 class="success-title visually-hidden">Our Approach to Success</h2>
           <ul class="success-list">
             <li class="success-list-item">
+              <img
+                src="./images/management-img.svg"
+                alt="management img"
+                width="349"
+                height="306"
+                class="success-sublist-item-image"
+              />
               <div class="success-list-item-text-wrapper">
                 <p class="success-list-item-text">Effortless Validation for</p>
-                <h3 class="success-list-item-titile">Management</h3>
+                <h3 class="success-list-item-title">Management</h3>
                 <p class="success-list-item-subtitle">
                   The Myspace page defines the individual, his or her
                   characteristics, traits, personal choices and the overall
@@ -201,50 +210,71 @@
                   </li>
                 </ul>
               </div>
-              <img
-                src="./images/management-img.svg"
-                alt="management img"
-                width="540"
-                height="500"
-                class="success-sublist-item-image"
-              />
             </li>
 
             <li class="success-list-item">
+              <img
+                src="./images/support-img.svg"
+                alt="support img"
+                width="350"
+                height="320"
+                class="success-sublist-item-image"
+              />
               <div class="success-list-item-text-wrapper">
                 <p class="success-list-item-text">Easier decision making for</p>
-                <h3 class="success-list-item-titile">Customer Support</h3>
+                <h3 class="success-list-item-title">Customer Support</h3>
                 <p class="success-list-item-subtitle">
                   The Myspace page defines the individual, his or her
                   characteristics, traits, personal choices and the overall
                   personality of the person.
                 </p>
                 <ul class="success-list-sublist">
-                  <li class="sublist-sublist-item">
-                    Never worry about overpaying for your energy again.
+                  <li class="success-sublist-item">
+                    <div class="success-sublist-box">
+                      <svg class="success-sublist-icon" width="16" height="12">
+                        <use href="./images/icons.svg#icon-success-list"></use>
+                      </svg>
+                    </div>
+                    <p class="success-sublist-text">
+                      Never worry about overpaying for your energy again.
+                    </p>
                   </li>
-                  <li class="sublist-sublist-item">
-                    We will only switch you to energy companies that we trust
-                    and will treat you right
+                  <li class="success-sublist-item">
+                    <div class="success-sublist-box">
+                      <svg class="success-sublist-icon" width="16" height="12">
+                        <use href="./images/icons.svg#icon-success-list"></use>
+                      </svg>
+                    </div>
+                    <p class="success-sublist-text">
+                      We will only switch you to energy companies that we trust
+                      and will treat you right
+                    </p>
                   </li>
-                  <li class="sublist-sublist-item">
-                    We track the markets daily and know where the savings are.
+                  <li class="success-sublist-item">
+                    <div class="success-sublist-box">
+                      <svg class="success-sublist-icon" width="16" height="12">
+                        <use href="./images/icons.svg#icon-success-list"></use>
+                      </svg>
+                    </div>
+                    <p class="success-sublist-text">
+                      We track the markets daily and know where the savings are.
+                    </p>
                   </li>
                 </ul>
               </div>
-              <img
-                src="./images/support-img.svg"
-                alt="support img"
-                width="540"
-                height="500"
-                class="success-sublist-item-image"
-              />
             </li>
 
             <li class="success-list-item">
+              <img
+                src="./images/collaboration-img.svg"
+                alt="collaboration img"
+                width="350"
+                height="291"
+                class="success-sublist-item-image"
+              />
               <div class="success-list-item-text-wrapper">
                 <p class="success-list-item-text">Optimisation for</p>
-                <h3 class="success-list-item-titile">Collaborative</h3>
+                <h3 class="success-list-item-title">Collaborative</h3>
                 <p class="success-list-item-subtitle">
                   Few would argue that, despite the advancements of feminism
                   over the past three decades, women still face a double
@@ -267,13 +297,6 @@
                   </li>
                 </ul>
               </div>
-              <img
-                src="./images/collaboration-img.svg"
-                alt="collaboration img"
-                width="540"
-                height="500"
-                class="success-sublist-item-image"
-              />
             </li>
           </ul>
         </div>
@@ -293,10 +316,14 @@
               <ul class="our-experts-list-wrapper-top">
                 <li class="our-experts-list-item-top">
                   <img
+                    srcset="
+                      ./images/avatar-1.jpg   1x,
+                      ./images/avatar1-2x.jpg 2x
+                    "
                     src="./images/avatar-1.jpg"
                     alt="avatar-1"
-                    width="98"
-                    height="98"
+                    width="90"
+                    height="90"
                     class="our-experts-list-item-image"
                   />
                   <p class="our-experts-list-item-text">
@@ -305,14 +332,18 @@
                 </li>
                 <li class="our-experts-list-item-top">
                   <img
+                    srcset="
+                      ./images/avatar-2.jpg   1x,
+                      ./images/avatar2-2x.jpg 2x
+                    "
                     src="./images/avatar-2.jpg"
                     alt="avatar-2"
-                    width="98"
-                    height="98"
+                    width="90"
+                    height="90"
                     class="our-experts-list-item-image"
                   />
                   <p class="our-experts-list-item-text">
-                    I can prototype your app
+                    I can design you website
                   </p>
                 </li>
               </ul>
@@ -321,26 +352,34 @@
               <ul class="our-experts-list-wrapper-bottom">
                 <li class="our-experts-list-item-bottom">
                   <img
+                    srcset="
+                      ./images/avatar-3.jpg   1x,
+                      ./images/avatar3-2x.jpg 2x
+                    "
                     src="./images/avatar-3.jpg"
                     alt="avatar-3"
-                    width="98"
-                    height="98"
-                    class="our-experts-list-item-image"
-                  />
-                  <p class="our-experts-list-item-text">
-                    I can take care of your pitch
-                  </p>
-                </li>
-                <li class="our-experts-list-item-bottom">
-                  <img
-                    src="./images/avatar-4.jpg"
-                    alt="avatar-4"
-                    width="98"
-                    height="98"
+                    width="90"
+                    height="90"
                     class="our-experts-list-item-image"
                   />
                   <p class="our-experts-list-item-text">
                     I can help marketing strategy
+                  </p>
+                </li>
+                <li class="our-experts-list-item-bottom">
+                  <img
+                    srcset="
+                      ./images/avatar-4.jpg   1x,
+                      ./images/avatar4-2x.jpg 2x
+                    "
+                    src="./images/avatar-4.jpg"
+                    alt="avatar-4"
+                    width="90"
+                    height="90"
+                    class="our-experts-list-item-image"
+                  />
+                  <p class="our-experts-list-item-text">
+                    I can prototype your app
                   </p>
                 </li>
               </ul>
@@ -364,9 +403,15 @@
           <ul class="strategies-list">
             <li class="strategies-list-item">
               <img
+                srcset="
+                  ./images/increasing.jpg    1x,
+                  ./images/increasing-2x.jpg 2x
+                "
                 src="./images/increasing.jpg"
                 alt="Increasing photo"
                 class="strategies-list-item-image"
+                width="348"
+                height="185"
               />
               <div class="strategies-list-item-text-wrapper">
                 <p class="strategies-list-item-date">
@@ -379,9 +424,15 @@
             </li>
             <li class="strategies-list-item">
               <img
+                srcset="
+                  ./images/motivation.jpg    1x,
+                  ./images/motivation-2x.jpg 2x
+                "
                 src="./images/motivation.jpg"
                 alt="Motivation photo"
                 class="strategies-list-item-image"
+                width="348"
+                height="185"
               />
               <div class="strategies-list-item-text-wrapper">
                 <p class="strategies-list-item-date">
@@ -394,9 +445,12 @@
             </li>
             <li class="strategies-list-item">
               <img
+                srcset="./images/success.jpg 1x, ./images/success-2x.jpg 2x"
                 src="./images/success.jpg"
                 alt="Seccess photo"
                 class="strategies-list-item-image"
+                width="348"
+                height="185"
               />
               <div class="strategies-list-item-text-wrapper">
                 <p class="strategies-list-item-date">
@@ -499,17 +553,19 @@
           </p>
           <ul class="reviews-list">
             <li class="reviews-list-item">
-              <img
-                src="./images/review-img.svg"
-                alt="review mark"
-                class="reviews-rating"
-              />
+              <svg class="review-mark" width="106" height="18">
+                <use href="./images/icons.svg#icon-review-mark"></use>
+              </svg>
               <p class="reviews-list-item-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
               <div class="reviewer-wrapper">
                 <img
+                  srcset="
+                    ./images/reviewer-1.jpg    1x,
+                    ./images/reviewer-1-2x.jpg 2x
+                  "
                   src="./images/reviewer-1.jpg"
                   alt="reviewer icon"
                   width="50"
@@ -523,17 +579,19 @@
               </div>
             </li>
             <li class="reviews-list-item">
-              <img
-                src="./images/review-img.svg"
-                alt="review mark"
-                class="reviews-rating"
-              />
+              <svg class="review-mark" width="106" height="18">
+                <use href="./images/icons.svg#icon-review-mark"></use>
+              </svg>
               <p class="reviews-list-item-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
               <div class="reviewer-wrapper">
                 <img
+                  srcset="
+                    ./images/reviewer-2.jpg    1x,
+                    ./images/reviewer-2-2x.jpg 2x
+                  "
                   src="./images/reviewer-2.jpg"
                   alt="reviewer icon"
                   width="50"
@@ -547,17 +605,19 @@
               </div>
             </li>
             <li class="reviews-list-item">
-              <img
-                src="./images/review-img.svg"
-                alt="review mark"
-                class="reviews-rating"
-              />
+              <svg class="review-mark" width="106" height="18">
+                <use href="./images/icons.svg#icon-review-mark"></use>
+              </svg>
               <p class="reviews-list-item-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
               <div class="reviewer-wrapper">
                 <img
+                  srcset="
+                    ./images/reviewer-3.jpg    1x,
+                    ./images/reviewer-3-2x.jpg 2x
+                  "
                   src="./images/reviewer-3.jpg"
                   alt="reviewer icon"
                   width="50"
@@ -591,8 +651,9 @@
               </button>
             </div>
             <img
-              src="./images/promo-card-image.png"
+              src="./images/promo-img.svg"
               alt="promo card image"
+              width="351"
               height="331"
               class="promo-card-image"
             />
@@ -608,47 +669,32 @@
         <div class="page-footer-wrapper">
           <div class="footer-links-wrapper">
             <a href="./index.html" class="logo">
-              <img
-                src="./images/logo.svg"
-                alt="logo icon"
-                width="40"
-                height="36"
-                class="logo-icon"
-              />Product
+              <svg class="logo-icon" width="32" height="29">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+              Product
             </a>
 
             <ul class="socials-list">
               <li class="socials-list-item">
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="instagram icon"
-                    width="24"
-                    height="24"
-                    class="socials-list-item-icon"
-                  />
+                <a href="" class="social-list-link">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
               <li class="socials-list-item">
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="facebook icon"
-                    width="24"
-                    height="24"
-                    class="socials-list-item-icon"
-                  />
+                <a href="" class="social-list-link">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
                 </a>
               </li>
               <li class="socials-list-item">
-                <a href="">
-                  <img
-                    src="./images/twitter.svg"
-                    alt="twitter icon"
-                    width="24"
-                    height="24"
-                    class="socials-list-item-icon"
-                  />
+                <a href="" class="social-list-link">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
@@ -656,7 +702,7 @@
 
           <div class="page-sublists-wrapper">
             <div class="footer-resource-sublist">
-              <h3 class="footer-sublist-title">Resource</h3>
+              <p class="footer-sublist-title">Resource</p>
               <ul class="footer-sublist">
                 <li class="footer-sublist-item">
                   <a href="" class="footer-sublist-item-link">About Us</a>
@@ -673,7 +719,7 @@
               </ul>
             </div>
             <div class="footer-stuff-sublist">
-              <h3 class="footer-sublist-title">Legal Stuff</h3>
+              <p class="footer-sublist-title">Legal Stuff</p>
               <ul class="footer-sublist">
                 <li class="footer-sublist-item">
                   <a href="" class="footer-sublist-item-link">Disclaimer</a>
@@ -688,11 +734,28 @@
             </div>
           </div>
           <div class="footer-reg-wrapper">
-            <h3 class="sign-up-title">
+            <p class="sign-up-title">
               knowing you're always on the best energy deal.
-            </h3>
-            <input type="email" class="sign-up-input" />
-            <button class="sign-up-button secondary">Sign up Now</button>
+            </p>
+            <form class="sign-up-form">
+              <label for="user-tel" class="sign-up-wrapper">
+                <input
+                  type="tel"
+                  id="user-tel"
+                  class="sign-up-input"
+                  placeholder="Enter your phone number"
+                  required
+                  name="user-tel"
+                />
+                <svg class="form-input-icon" width="18" height="28">
+                  <use href="./images/icons.svg#icon-subscribe-input"></use>
+                </svg>
+              </label>
+
+              <button type="submit" class="sign-up-button secondary">
+                Sign up Now
+              </button>
+            </form>
           </div>
         </div>
         <p class="author-comment">
