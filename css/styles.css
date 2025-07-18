@@ -284,6 +284,10 @@ img {
 /* ------------------------------------------------------------PRICING SECTION END------------------------------------------------------------ */
 
 /* ------------------------------------------------------------PROMO SECTION START------------------------------------------------------------ */
+
+.promo {
+  padding-top: 100px;
+}
 .promo .container {
   padding: 0 15px;
 }
@@ -473,9 +477,12 @@ img {
 }
 
 /* ---FOOTER SECTION END--- */
-/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------INDEX.HTML PAGE------------------------------------------------------------------------ */
-/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------INDEX.HTML PAGE------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+*/
 /* ---------------------------------------------------------------------------HERO SECTION START--------------------------------------------------------------------------- */
 .hero-img {
   margin: 0 auto 10px auto;
@@ -913,52 +920,55 @@ img {
   color: #252b42;
 }
 
-/* ---REVIEWS SECTION END--- */
+/* ---------------------------------------------------------------------REVIEWS SECTION END--------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------CUSTOMERS.HTML PAGE------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------------CUSTOMERS.HTML PAGE------------------------------------------------------------------------ */
 body {
   font-family: "Poppins", sans-serif;
   color: #22343d;
 }
-/* ---OUR-CLIENTS SECTION START--- */
+/* ---------------------------------------------------------------------OUR-CLIENTS SECTION START--------------------------------------------------------------------- */
 
 .our-clients {
-  padding: 100px 0 117px 0;
+  padding: 50px 0 77px 0;
 }
 .our-clients .container {
-  padding: 0 150px;
+  padding: 0 30px;
 }
 .our-clients-title {
   font-weight: 700;
-  font-size: 40px;
-  text-align-last: center;
-  margin-bottom: 50px;
-}
-.our-clients-list {
-  /* display: flex; */
-  gap: 64px;
-  padding: 20px 0;
-  align-items: center;
-}
-
-/* ---OUR-CLIENTS SECTION END--- */
-
-/* ---BENEFITS SECTION START--- */
-
-.benefits {
-  padding: 24px 0 68px 0;
-}
-
-.benefits-title {
-  font-weight: 700;
-  font-size: 34px;
+  font-size: 36px;
   text-align: center;
   margin-bottom: 50px;
 }
+.our-clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.benefits-list {
-  /* display: flex; */
-  gap: 30px;
+/* ---------------------------------------------------------------------OUR-CLIENTS SECTION END--------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------BENEFITS SECTION START--------------------------------------------------------------------- */
+
+.benefits {
+  padding: 24px 0 61px 0;
+  background-color: #f5f5f5;
+}
+.benefits .container {
+  padding: 0 31px;
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .benefits-list-item {
@@ -966,12 +976,28 @@ body {
   border-radius: 10px;
   text-align: center;
   padding: 32px 0px 34px 0px;
-  width: calc((100% - 60px) / 3);
 }
-
-.benefits-list-item-icon {
+.benefits-list-item:not(:last-child) {
   margin-bottom: 32px;
+}
+.benefits-list-item:nth-child(1) .benefits-icon-wrapper {
+  background-color: #02897a;
+}
+.benefits-list-item:nth-child(2) .benefits-icon-wrapper {
+  background-color: #4d8dff;
+}
+.benefits-list-item:nth-child(3) .benefits-icon-wrapper {
+  background-color: #f03e3d;
+}
+.benefits-icon-wrapper {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   margin: 0 auto 32px auto;
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .benefits-list-item-title {
@@ -991,38 +1017,42 @@ body {
   margin: 0 auto;
 }
 
-/* ---BENEFITS SECTION END--- */
+/* ---------------------------------------------------------------------BENEFITS SECTION END--------------------------------------------------------------------- */
 
-/* ---INSTRUCTION SECTION START--- */
-
+/* ---------------------------------------------------------------------INSTRUCTION SECTION START--------------------------------------------------------------------- */
+.instruction {
+  padding: 96px 0 70px 0;
+}
 .instruction .container {
-  padding: 100px 60px 115px 60px;
+  padding: 0px 26px 0px 26px;
 }
 .instruction-title {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
-  margin-bottom: 74px;
+  margin-bottom: 79px;
 }
 .instruction-list {
-  margin-bottom: 77px;
 }
 .instruction-list-item {
-  /* display: flex; */
 }
-.instruction-list-item:not(:last-child) {
-  margin-bottom: 100px;
+.instruction-list-item:nth-child(1) {
+  margin-bottom: 69px;
 }
 .instruction-list-item:nth-child(2) {
-  flex-direction: row-reverse;
+  margin-bottom: 74px;
 }
-.instruction-text-wrapper {
-  padding-left: 89px;
-  margin: auto 0;
+.instruction-list-item:nth-child(1) .instruction-list-img {
+  margin-bottom: 80px;
 }
-.instruction-list-item:nth-child(2) .instruction-text-wrapper {
-  padding-right: 76px;
-  margin: auto 0;
+.instruction-list-item:nth-child(2) .instruction-list-img {
+  margin-bottom: 69px;
+}
+.instruction-list-item:nth-child(3) .instruction-list-img {
+  margin-bottom: 67px;
+}
+.instruction-list-img {
+  margin: 0 auto;
 }
 .instruction-list-subtitle {
   text-transform: uppercase;
@@ -1041,43 +1071,48 @@ body {
   line-height: 175%;
 }
 .instruction-button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: #fff;
-  border-radius: 8px;
-  background: #02897a;
-  border: 0px;
-  min-width: 224px;
-  height: 44px;
-  margin: 0 auto;
+  display: none;
 }
 
-/* ---BINSTRUCTION SECTION END--- */
+/* ---------------------------------------------------------------------BINSTRUCTION SECTION END--------------------------------------------------------------------- */
 
-/* ---OFFERS SECTION START--- */
+/* ---------------------------------------------------------------------OFFERS SECTION START--------------------------------------------------------------------- */
 
+.offers {
+  padding: 30px 0px 33px 0px;
+}
 .offers .container {
-  padding: 35px 212px 195px 212px;
+  padding: 0px 30px;
 }
 .offers-title {
   font-weight: 700;
   font-size: 32px;
   text-align: center;
-  max-width: 537px;
   margin: 0 auto;
-  margin-bottom: 93px;
+  margin-bottom: 85px;
 }
 .offers-list {
-  /* display: flex; */
-  gap: 227px;
 }
 .offers-list-item {
   text-align: center;
 }
-.offers-list-item-logo {
-  margin: 0 auto;
-  margin-bottom: 72px;
+.offers-list-item:not(:last-child) {
+  margin-bottom: 66px;
+}
+.offer-item-logo-wrapper {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin: 0 auto 35px auto;
+}
+.offers-list-item:nth-child(1) .offer-item-logo-wrapper {
+  background-color: #ffefef;
+}
+.offers-list-item:nth-child(2) .offer-item-logo-wrapper {
+  background-color: #f2f6ff;
 }
 .offers-list-title {
   font-weight: 500;
@@ -1103,31 +1138,37 @@ body {
   text-align: center;
 }
 
-/* ---OFFERS SECTION END--- */
+/* ---------------------------------------------------------------------OFFERS SECTION END--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------PRICING.HTML PAGE------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------------PRICING.HTML PAGE------------------------------------------------------------------------ */
-
-/* <!-- ---Pricing-SECTION START--- --> */
+/* ---------------------------------------------------------------------Pricing-SECTION START--------------------------------------------------------------------- */
 .pricing-page {
-  padding-bottom: 150px;
+  padding: 50px 0px 100px 0px;
+}
+.pricing-page .container {
+  padding: 0px 29px;
 }
 .price-title {
   font-weight: 600;
   font-size: 24px;
   text-transform: uppercase;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 .price-subtitle {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 36px;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 .price-text {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 49px;
+  margin-bottom: 50px;
 }
 .price-list-item {
   font-family: "Poppins", sans-serif;
@@ -1149,21 +1190,16 @@ body {
   letter-spacing: 0em;
   text-align: center;
 }
-.price-list-item .pricing-sublist-item,
-.price-list-item .pricing-list-item-price-dollar,
-.price-list-item .pricing-list-item-price-month {
-  font-family: "Inter", sans-serif;
-}
 
-/* <!-- ---Pricing-SECTION END--- --> */
-
-/* <!-- ---Enterprice SECTION START--- --> */
+/* ---------------------------------------------------------------------Pricing-SECTION END--------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------Enterprice SECTION START--------------------------------------------------------------------- */
 
 .enterprise {
-  padding: 53px 0 345px 0;
-  text-align: center;
+  padding: 47px 0 46px 0;
+  background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
 }
 .enterprise-subtitle {
+  text-align: center;
   font-weight: 600;
   font-size: 24px;
   text-transform: uppercase;
@@ -1171,8 +1207,9 @@ body {
 }
 .enterprise-title {
   font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 8px;
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 .enterprise-text {
   font-weight: 400;
@@ -1180,7 +1217,7 @@ body {
   margin-bottom: 32px;
 }
 .enterprise-button {
-  font-family: var(--third-family);
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #fff;
@@ -1196,28 +1233,47 @@ body {
 .enterprise-button:active {
   border-radius: 8px;
 }
-
-/* <!-- ---Enterprice SECTION END--- --> */
-
-/* <!-- ---Users SECTION START--- --> */
+/* ---------------------------------------------------------------------Enterprice SECTION END--------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------Users SECTION START--------------------------------------------------------------------- */
 
 .users {
+  padding: 100px 0;
+}
+.users .container {
+  padding: 0px 29px;
 }
 .users-title {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 32px;
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 33px;
 }
-.users-content-wrapper {
-  /* display: flex; */
+.users-img {
+  margin-bottom: 31.8px;
+}
+.users-list-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.user-item-title-wrapper {
+  display: flex;
   align-items: center;
-  gap: 63px;
+  gap: 14.8px;
+  margin-bottom: 16px;
 }
+.users-list-icon-wrapper {
+  width: 53px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f5f7;
+  border-radius: 50%;
+}
+
 .users-list-item-title {
   font-weight: 600;
   font-size: 24px;
-  margin-bottom: 23px;
 }
 .users-list-item-text {
   font-weight: 400;
@@ -1230,33 +1286,43 @@ body {
 /* <!-- ---Questions SECTION START--- --> */
 
 .question .container {
-  padding: 0px 115px 150px 115px;
+  padding: 0px 28px;
 }
 .question-title {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .question-subtitle {
   font-weight: 400;
   font-size: 18px;
   text-align-last: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .question-list {
 }
 .question-list-item {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 16px;
+}
+.question-list-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.question-item-title-wrapper {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 .question-list-item-ask {
   font-weight: 500;
   font-size: 18px;
-  margin: 0 0 38px 40px;
 }
 .question-list-item-answer {
   font-weight: 400;
   font-size: 16px;
-  margin-bottom: 40px;
+  text-align: left;
 }
 
 /* <!-- ---Questions SECTION END--- --> */
